@@ -1,0 +1,297 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ff796201-095d-48e5-a4a7-7449851fd68a")
+	(paper "A4")
+	(title_block
+		(title "FPV Drone Flight Controller")
+		(date "2024-04-10")
+		(rev "v1")
+		(company "Ravindu Karunathilake")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 167.64 100.33) (xy 176.53 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b47f61de-3041-442c-a66d-40e073ef23db")
+	)
+	(sheet
+		(at 74.93 69.85)
+		(size 22.86 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c742b51-548e-4e32-af20-48cf500934a3")
+		(property "Sheetname" "ESC"
+			(at 74.93 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESC.kicad_sch"
+			(at 74.93 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flight_Controller"
+				(path "/ff796201-095d-48e5-a4a7-7449851fd68a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 86.36)
+		(size 40.64 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3110442e-1f34-4be2-a420-b6655f3c1505")
+		(property "Sheetname" "PDB"
+			(at 176.53 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PDB.kicad_sch"
+			(at 176.53 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PIT_CONTROL" input
+			(at 176.53 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "189730b3-b37f-4a95-b3a5-14dbdd1ce6e5")
+		)
+		(instances
+			(project "Flight_Controller"
+				(path "/ff796201-095d-48e5-a4a7-7449851fd68a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 69.85)
+		(size 59.69 57.15)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3c445d4a-bc43-41f2-9e62-100494432aab")
+		(property "Sheetname" "STM32_F7_MCU"
+			(at 107.95 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 107.95 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3V3_BATTERY" input
+			(at 167.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "469ddb30-76cc-4010-88e1-58bcf6106c1c")
+		)
+		(pin "+5V_USB" output
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0d1ee84b-a119-4687-8d73-69859d2c0c09")
+		)
+		(pin "PIT_CONTROL" output
+			(at 167.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9c305a42-49c9-43b2-9113-f53bebb09e88")
+		)
+		(instances
+			(project "Flight_Controller"
+				(path "/ff796201-095d-48e5-a4a7-7449851fd68a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 105.41)
+		(size 22.86 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4bc55dfb-b2fb-43f8-96d6-0e001a76b330")
+		(property "Sheetname" "VIDEO_TX"
+			(at 74.93 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VIDEO_TX.kicad_sch"
+			(at 74.93 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flight_Controller"
+				(path "/ff796201-095d-48e5-a4a7-7449851fd68a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 135.89)
+		(size 35.56 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2ee751a-8d2a-406d-9678-fa074788bf3b")
+		(property "Sheetname" "RADIO_RX"
+			(at 120.65 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RADIO_RX.kicad_sch"
+			(at 120.65 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flight_Controller"
+				(path "/ff796201-095d-48e5-a4a7-7449851fd68a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.825 38.735)
+		(size 34.29 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc30c25e-3522-47f6-96a9-a9d3b96bb27a")
+		(property "Sheetname" "SENSORS"
+			(at 123.825 38.0234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SENSORS.kicad_sch"
+			(at 123.825 62.1796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flight_Controller"
+				(path "/ff796201-095d-48e5-a4a7-7449851fd68a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
